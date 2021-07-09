@@ -1,0 +1,184 @@
+.item {
+  background-image: linear-gradient(to right, rgb(58, 87, 252), blue);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin-left: 9vw;
+  border-bottom: 2px solid rgb(153, 152, 152);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 1.5rem;
+}
+.top {
+  height: 3rem;
+}
+option {
+  text-transform: capitalize;
+}
+h2 {
+  color: white;
+  text-transform: capitalize;
+}
+#modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#modal button {
+  margin-top: 1rem;
+}
+select {
+  height: 2rem;
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: rgb(195, 194, 199);
+}
+.item div:first-child {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.item div h2,
+.item div h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+}
+.item button {
+  opacity: 0;
+  transition: 0.3s linear;
+  background-color: white;
+  color: rgb(216, 0, 151);
+}
+.item:hover button {
+  opacity: 1;
+}
+.item button:hover {
+  background-color: rgb(216, 0, 151);
+  color: white;
+}
+.success {
+  color: green;
+  text-align: center;
+  margin: 0;
+}
+.error {
+  color: red;
+  text-align: center;
+  margin: 0;
+}
+.item:hover {
+  opacity: 0.9;
+}
+@media (max-width: 372px) {
+  .item {
+    width: 97vw;
+    margin-left: 1.5vw;
+  }
+  .top {
+    font-size: medium;
+    height: 9rem;
+  }
+  .item div h2,
+  .item div h3 {
+    font-size: medium;
+  }
+  .item button {
+    font-size: x-small;
+    opacity: 1;
+  }
+}
+@media (min-width: 1000px) {
+  .item {
+    width: 70vw;
+    margin-left: 15vw;
+  }
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: large;
+  transition: 0.3s linear;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+h1 {
+  flex: 1;
+  text-align: center;
+}
+.user-div {
+  background-color: #fff;
+  padding-top: 25vh;
+}
+.users h2 {
+  text-align: center;
+  color: rgb(197, 12, 135);
+}
+.users h2 svg {
+  color: rgb(245, 81, 190);
+  position: relative;
+  top: 3px;
+}
+.users button {
+  width: fit-content;
+  margin: 0.5rem auto;
+  padding: 10px;
+}
+.users {
+  max-width: 500px;
+  padding: 1rem;
+  box-shadow: 0px 10px 10px gray;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid lightgray;
+}
+.users div {
+  max-width: 400px;
+  margin: 0.25rem auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 115, 115),
+    rgb(116, 116, 253)
+  );
+}
+a:hover {
+  background-color: white;
+}
+.trans h2 {
+  color: rgb(62, 62, 63);
+  text-align: center;
+  width: 33%;
+  padding-top: 1rem;
+
+  border-right: 2px solid blue;
+}
+.trans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid blue;
+}
+.trans-h2 {
+  padding: 1rem 0;
+  color: rgb(119, 0, 255) !important;
+}
